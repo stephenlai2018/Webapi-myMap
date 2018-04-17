@@ -8,8 +8,13 @@
   <link rel="icon" href="./img/beachflag.png">
   <title>My Google Maps</title>
   <style>
+    body {
+      margin: 0;
+      padding: 10px;
+    }
+
     .container {
-      width: 400px;
+      width: 420px;
       height: auto;
       margin: 0 auto;
       text-align: center;
@@ -18,12 +23,15 @@
       height: 400px;
       width: 400px;
     }
+    .pos {
+      margin: 0 auto;
+    }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>我的谷歌地圖</h1>
-    <div id="map"></div>
+    <h1 class="pos">我的谷歌地圖</h1>
+    <div id="map" class="pos"></div>
   </div>
   <script src="./js/app.js"></script>
   <script async defer
