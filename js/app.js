@@ -17,7 +17,7 @@ function initMap() {
       lng: 121.5439082 
     },
     map: map,
-    icon: "/../img/beachflag.png"
+    icon: "../../img/beachflag.png"
   });
 
   let infoWindow = new google.maps.InfoWindow({
